@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <style>
+        /* Style here 
+            - Color: 
+                main Color: #0c8599; 
+                grey Color: #343a40
+        */
+
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+        * {
+
+            box-sizing: border-box;
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Rubik', sans-serif;
+            color: #444;
+        }
+
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+            padding-top: 32px;
+        }
+
+        header {
+            color: rgb(243, 236, 236);
+            height: 100vh;
+            background:
+                linear-gradient(rgba(2, 2, 2, 0.541), rgba(2, 2, 2, 0.301)), url('https://images.unsplash.com/photo-1476820865390-c52aeebb9891?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+
+        }
+
+
+        nav {
+            font-size: 20px;
+            display: flex;
+            justify-content: space-between;
+            font-weight: 700;
+        }
+
+        .header-container {
+            width: 1200px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .header-container-inner {
+            width: 50%;
+        }
+
+        h1 {
+            font-size: 52px;
+            margin-bottom: 32px;
+        }
+
+        h2 {
+            font-size: 44px;
+            margin-bottom: 48px;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.5;
+            margin-bottom: 48px;
+        }
+
+        .btn:link,
+        .btn:visited {
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 600px;
+            background-color: #e67e22;
+            display: inline-block;
+            border-radius: 9px;
+        }
+
+        section {
+            padding: 96px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div>Logo</div>
+            <div>Navigation</div>
+        </nav>
+
+        <div class="header-container">
+            <div class="header-container-inner">
+                <h1>A healthy meal delivered to your door, every single day</h1>
+                <p>The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your
+                    persional tastes and nutritional needs </p>
+                <a href="#" class="btn">Start eating well</a>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <h2>Some random heading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolorem provident, beatae unde quas aut assumenda sunt perferendis perspiciatis vitae?
+                Ipsam dolore aut qui, laboriosam quaerat dolorum error repudiandae sapiente quos?</p>
+        </div>
+    </section>
+    <footer></footer>
+</body>
+
+</html>
